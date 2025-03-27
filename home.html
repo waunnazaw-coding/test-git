@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Home</h1>
+    <h2>Mg Mg</h2>
+    <h1>Git Configuration Guide</h1>
+    <h2>Troubleshooting Cache Daemon Error</h2>
+    <div class="git-commands">
+        <pre>
+# Reset git credential cache
+git credential-cache exit
+
+# Clear and reconfigure credential cache
+git config --global credential.helper cache
+git config --global credential.helper 'cache --timeout=3600'
+        </pre>
+    </div>
+    <h2>Common Git Commands</h2>
+    <div class="git-commands">
+        <h3>Basic Commands</h3>
+        <ul>
+            <li><code>git init</code> - Initialize a new repository</li>
+            <li><code>git clone [url]</code> - Clone a repository</li>
+            <li><code>git add [file]</code> - Add files to staging</li>
+            <li><code>git commit -m "[message]"</code> - Commit changes</li>
+            <li><code>git push</code> - Push changes to remote</li>
+            <li><code>git pull</code> - Pull changes from remote</li>
+        </ul>
+        <h3>Branch Commands</h3>
+        <ul>
+            <li><code>git branch</code> - List branches</li>
+            <li><code>git checkout [branch]</code> - Switch branches</li>
+            <li><code>git merge [branch]</code> - Merge branches</li>
+        </ul>
+    </div>
+</body>
+
+</html>
